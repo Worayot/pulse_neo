@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pulse/chat_screen.dart';
+import 'package:pulse/form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Simple Chat',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: ChatScreen(),
+      // home: ChatScreen(),
+      home: FormPage(),
     );
   }
 }
